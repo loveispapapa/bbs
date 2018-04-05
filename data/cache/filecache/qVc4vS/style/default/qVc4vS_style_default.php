@@ -100,6 +100,6 @@ $data = array (
     'boardlogo' => '<img src="static/image/common/logo.png" alt="Discuz! Board" border="0" />',
     'bold' => 'bold',
     'defaultextstyle' => '',
-    'verhash' => 'lUE',
+    'verhash' => 'AAz',
   ),
 );

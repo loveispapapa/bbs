@@ -3,6 +3,7 @@ $data = array (
   'exp' => 0,
   'data' => 
   array (
+    'xlmmylt.plugin' => 1,
     'pcmgr_url_safeguard.plugin' => 1,
     'mobile.plugin' => 1,
     'security.plugin' => 1,

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[xlmmylt.plugin]]></item>
+	<item id="RevisionID"><![CDATA[73018]]></item>
+	<item id="SN"><![CDATA[2018040523rAZaKK3rT4]]></item>
+	<item id="RevisionDateline"><![CDATA[1520481601]]></item>
+	<item id="Data">
+		<item id="/xlmmylt.class.php"><![CDATA[6b9b0074e63e170df08b1690b7173412]]></item>
+		<item id="/jquery-1.8.3.min.js"><![CDATA[e1288116312e4728f98923c79b034b67]]></item>
+		<item id="/template/default.htm"><![CDATA[fb50c0cc7d3b884a6a376a95ec3e0974]]></item>
+		<item id="/discuz_plugin_xlmmylt_TC_BIG5.xml"><![CDATA[638c6e67ed6f533cab16dbaa2f0a0140]]></item>
+		<item id="/discuz_plugin_xlmmylt_SC_UTF8.xml"><![CDATA[d0f7daeda8b18756eb0cbaee548782b6]]></item>
+		<item id="/num.png"><![CDATA[2edcc490f9d0e707878455a76c3119a9]]></item>
+		<item id="/discuz_plugin_xlmmylt_SC_GBK.xml"><![CDATA[638c6e67ed6f533cab16dbaa2f0a0140]]></item>
+		<item id="/lazyload.js"><![CDATA[9cf75fcb01680b20aa14877fbfed09d0]]></item>
+		<item id="/discuz_plugin_xlmmylt_TC_UTF8.xml"><![CDATA[d0f7daeda8b18756eb0cbaee548782b6]]></item>
+	</item>
+</root>
