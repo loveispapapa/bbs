@@ -112,7 +112,7 @@ $data = array (
     'debateforumid' => '0',
     'debug' => '1',
     'defaulteditormode' => '1',
-    'delayviewcount' => '0',
+    'delayviewcount' => '1',
     'deletereason' => '',
     'disallowfloat' => 'newthread',
     'domainroot' => '',
@@ -414,16 +414,20 @@ $data = array (
     'minpostsize_mobile' => '0',
     'mobile' => 
     array (
-      'allowmobile' => 0,
+      'allowmobile' => 1,
       'mobileforward' => 1,
-      'mobileregister' => 0,
-      'mobilecharset' => 'utf-8',
-      'mobilesimpletype' => 0,
+      'mobileregister' => 1,
+      'mobileseccode' => 0,
+      'mobilehotthread' => 1,
+      'mobiledisplayorder3' => 1,
+      'mobilesimpletype' => 1,
       'mobiletopicperpage' => 10,
       'mobilepostperpage' => 5,
       'mobilecachetime' => 0,
       'mobileforumview' => 0,
-      'mobilepreview' => 1,
+      'mobilecomefrom' => '',
+      'mobilepreview' => 0,
+      'wml' => 0,
     ),
     'moddisplay' => 'flat',
     'modratelimit' => '0',
@@ -443,7 +447,7 @@ $data = array (
     'nocacheheaders' => '0',
     'oltimespan' => '10',
     'onlinehold' => 900,
-    'onlinerecord' => '7	1269749404',
+    'onlinerecord' => '9	1522942981',
     'pollforumid' => '0',
     'postbanperiods' => '',
     'postmodperiods' => '',
@@ -1092,6 +1096,10 @@ j/n/Y',
     'security_safelogin' => '1',
     'mobilewechat' => 'a:12:{s:12:"wechat_mtype";s:1:"0";s:13:"wechat_qrtype";s:1:"3";s:12:"wechat_token";s:16:"T6fFLnc6NwbNc91W";s:20:"wechat_allowregister";s:1:"1";s:24:"wechat_allowfastregister";s:1:"1";s:21:"wechat_disableregrule";s:1:"1";s:19:"wechat_float_qrcode";s:1:"1";s:18:"wechat_confirmtype";s:1:"0";s:21:"wechat_newusergroupid";s:2:"10";s:14:"wsq_wapdefault";i:1;s:17:"wsq_global_banner";i:1;s:7:"RELEASE";s:8:"20150303";}',
     'mobileapihook' => 'a:2:{s:12:"forumdisplay";a:1:{s:9:"variables";a:1:{s:6:"wechat";a:4:{s:7:"include";s:16:"wsqapi.class.php";s:5:"class";s:6:"WSQAPI";s:6:"method";s:22:"forumdisplay_variables";s:5:"allow";i:1;}}}s:10:"viewthread";a:1:{s:9:"variables";a:1:{s:6:"wechat";a:4:{s:7:"include";s:16:"wsqapi.class.php";s:5:"class";s:6:"WSQAPI";s:6:"method";s:20:"viewthread_variables";s:5:"allow";i:1;}}}}',
+    'optimizeviews' => '0',
+    'csspathv' => 'data/cache/',
+    'lazyload' => '1',
+    'onlineguestsmultiple' => '10',
     'newusergroupid' => '10',
     'buyusergroupexists' => '0',
     'forumfids' => 
@@ -1126,10 +1134,9 @@ j/n/Y',
     array (
       'available' => 
       array (
-        0 => 'cloudcaptcha',
-        1 => 'pcmgr_url_safeguard',
-        2 => 'mobile',
-        3 => 'security',
+        0 => 'pcmgr_url_safeguard',
+        1 => 'mobile',
+        2 => 'security',
       ),
       'func' => 
       array (
@@ -1158,7 +1165,6 @@ j/n/Y',
       ),
       'version' => 
       array (
-        'cloudcaptcha' => '1.0',
         'pcmgr_url_safeguard' => '1.1',
         'mobile' => '1.4.8',
         'security' => '1.11.1',
@@ -4287,42 +4293,42 @@ j/n/Y',
       array (
         'available' => '1',
         'navname' => '道具',
-        'code' => '<a href="home.php?mod=magic" style="background-image:url(http://45.33.44.158/static/image/feed/magic_b.png) !important">道具</a>',
+        'code' => '<a href="home.php?mod=magic" style="background-image:url(http://zy888.org/static/image/feed/magic_b.png) !important">道具</a>',
         'level' => '0',
       ),
       'medal' => 
       array (
         'available' => '1',
         'navname' => '勋章',
-        'code' => '<a href="home.php?mod=medal" style="background-image:url(http://45.33.44.158/static/image/feed/medal_b.png) !important">勋章</a>',
+        'code' => '<a href="home.php?mod=medal" style="background-image:url(http://zy888.org/static/image/feed/medal_b.png) !important">勋章</a>',
         'level' => '0',
       ),
       'task' => 
       array (
         'available' => '1',
         'navname' => '任务',
-        'code' => '<a href="home.php?mod=task" style="background-image:url(http://45.33.44.158/static/image/feed/task_b.png) !important">任务</a>',
+        'code' => '<a href="home.php?mod=task" style="background-image:url(http://zy888.org/static/image/feed/task_b.png) !important">任务</a>',
         'level' => '0',
       ),
       'friend' => 
       array (
         'available' => '0',
         'navname' => '好友',
-        'code' => '<a href="home.php?mod=space&do=friend" style="background-image:url(http://45.33.44.158/static/image/feed/friend_b.png) !important">好友</a>',
+        'code' => '<a href="home.php?mod=space&do=friend" style="background-image:url(http://zy888.org/static/image/feed/friend_b.png) !important">好友</a>',
         'level' => '0',
       ),
       'thread' => 
       array (
         'available' => '0',
         'navname' => '帖子',
-        'code' => '<a href="forum.php?mod=guide&view=my" style="background-image:url(http://45.33.44.158/static/image/feed/thread_b.png) !important">帖子</a>',
+        'code' => '<a href="forum.php?mod=guide&view=my" style="background-image:url(http://zy888.org/static/image/feed/thread_b.png) !important">帖子</a>',
         'level' => '0',
       ),
       'favorite' => 
       array (
         'available' => '0',
         'navname' => '收藏',
-        'code' => '<a href="home.php?mod=space&do=favorite&view=me" style="background-image:url(http://45.33.44.158/static/image/feed/favorite_b.png) !important">收藏</a>',
+        'code' => '<a href="home.php?mod=space&do=favorite&view=me" style="background-image:url(http://zy888.org/static/image/feed/favorite_b.png) !important">收藏</a>',
         'level' => '0',
       ),
     ),
@@ -4334,7 +4340,7 @@ j/n/Y',
         array (
           'available' => '1',
           'navname' => '设为首页',
-          'code' => '<a href="javascript:;"  onclick="setHomepage(\'http://45.33.44.158/\');">设为首页</a>',
+          'code' => '<a href="javascript:;"  onclick="setHomepage(\'http://zy888.org/\');">设为首页</a>',
           'type' => '0',
           'level' => '0',
           'id' => 'sethomepage',
@@ -4343,7 +4349,7 @@ j/n/Y',
         array (
           'available' => '1',
           'navname' => '收藏本站',
-          'code' => '<a href="http://45.33.44.158/"  onclick="addFavorite(this.href, \'Discuz! Board\');return false;">收藏本站</a>',
+          'code' => '<a href="http://zy888.org/"  onclick="addFavorite(this.href, \'Discuz! Board\');return false;">收藏本站</a>',
           'type' => '0',
           'level' => '0',
           'id' => 'setfavorite',
@@ -4356,19 +4362,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{U62zNeGO}
-{UZJ49QCE}
-{T74S784V}
-{MbnLuU5Z}
-{e1ssYFHi}
-{f77KtZsp}
+          'left' => '{Rj8dOH0J}
+{hnKKdffD}
+{uypMWMTb}
+{Q9C9EGlj}
+{E7MChc32}
+{cURZuDJ2}
 <dl class="pil cl">
-	<dt>{mT8FGfZF}</dt><dd>{HyCgKylS}</dd>
+	<dt>{Y3IxJZLv}</dt><dd>{W4ZfAYrD}</dd>
 </dl>
-{ZWz5dGfF}
-<dl class="pil cl">{Olz003ik}</dl>',
+{rhmG7gl9}
+<dl class="pil cl">{YWWwLT19}</dl>',
           'top' => '<dl class="cl">
-<dt>{yq1C6ZQ1}</dt><dd>{Ve5uddnK}</dd>
+<dt>{PjQSQgJF}</dt><dd>{j4f4KFC9}</dd>
 </dl>',
         ),
       ),
@@ -4378,980 +4384,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{NNSsMO9V}' => 
+            '{Rj8dOH0J}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{g2MWLr30}' => 
+            '{hnKKdffD}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{VAlAGI9c}' => 
+            '{uypMWMTb}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{ZaiTM1iH}' => 
+            '{Q9C9EGlj}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{NikBgGCT}' => 
+            '{E7MChc32}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{P11I330Q}' => 
+            '{cURZuDJ2}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{hKuP4m4F}' => 
+            '{Y3IxJZLv}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{p7ZKW4ye}' => 
+            '{W4ZfAYrD}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{YCebiv3A}' => 
+            '{rhmG7gl9}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{gSiuXzS2}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{NA1c8iCz}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{UQym09KL}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{JfehQBP5}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{cExy7h6j}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{oDF9P9uW}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{EHClKjXJ}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{ahx9XHPJ}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{o3WOIHgy}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{Degdme2I}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{x6d5svcw}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{f5H74N58}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{C4MFB2CH}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{Vn1834eK}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{SnpZjWWr}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{OR87dGsM}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{JdIo1o06}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{W71ylyld}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{tSnNOcmC}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{VT3FTAOe}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{H59YlV8S}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{nHB5HsSl}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{P7rGec2y}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{ssZSaFlY}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{B7y6zenv}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{mVnKf4hf}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{bNnmnWrz}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{dD0sgZ7N}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{L49vpTWg}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{TGL6Fgu7}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{c7w1xCtj}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{YmttLvom}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{zZ01rwW3}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{oSlQ0Klz}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{FvbwD8c5}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{wS8foGZs}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{J059Nn0s}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{shdCyxk5}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{gK5rGlBX}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{Kc11ZZ9o}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{QvrvKLDN}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{sPp1Nuz1}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{gZDZLzqY}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{iz8hvhRC}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{r009B6Z9}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{fQf0Btuu}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{fN0tHTTR}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{kS0V2U0R}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{d6M5l05M}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{tqeZe7sl}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{IOoO88c9}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{p17D8BhY}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{lXUxWDxd}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{Ih1Nj1K3}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{Tg00f5aZ}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{mU6f0o0f}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{y66UX7i9}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{v2nEMXxe}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{vBkRrkrZ}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{l0bHe0tE}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{VFSnumvm}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{gG2g2jeA}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{JCscZK9M}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{h118HQ3i}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{kLZlOxlZ}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{zUegDoDW}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{uexkytnN}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{PY723RZ3}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{DOMOx88o}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{KS5mAo20}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{yQYYOQY2}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{vd7g6hY7}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{PQuUXUF0}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{a3Wg7J7J}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{vAA55d7s}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{dcNJbj8l}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{cll6MJd6}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{e12uaJad}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{xGIlUah2}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{IXbQ9E9L}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{b5WR5RTz}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{QHKYkDdK}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{WZ7EMKDE}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{LsU9cMl4}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{RXX3Z66S}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{Ts8sJCsY}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{jtQxDQDE}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{Xk62oe9M}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{mt7A359z}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{TM9G9sMZ}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{nWEZKLDf}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{BkRlNKE8}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{bwWF0SG4}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{k99viM7g}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{qvad5383}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{S1qj9YdH}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{uWYhhEjP}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{rfFs4hYA}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{k89tTkKC}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{JOejqU1H}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{t9dBdZ4H}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{JJghDU9P}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{Fz2KlM2O}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{aeP6737P}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{BWrkJUzu}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{OSRgRszU}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{JBb75W6f}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{AVFvfNvE}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{p14KXkwK}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{sjNGPbnN}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{FpAPJPOp}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{egUVDBLw}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{fjrsqqy5}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{JYK8Tt72}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{nW4E4PrG}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{F1x1KGv7}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{bPfFFexI}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{dkK9FP22}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{R0ICvcVv}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{UKc0ELnX}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{nQHqDUaZ}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'field_qq,0',
-            ),
-            '{U62zNeGO}' => 
-            array (
-              0 => 'numbercard',
-              1 => '',
-              2 => '',
-              3 => '',
-            ),
-            '{UZJ49QCE}' => 
-            array (
-              0 => 'groupicon',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{T74S784V}' => 
-            array (
-              0 => 'authortitle',
-              1 => '<p><em>',
-              2 => '</em></p>',
-              3 => '',
-            ),
-            '{MbnLuU5Z}' => 
-            array (
-              0 => 'customstatus',
-              1 => '<p class="xg1">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{e1ssYFHi}' => 
-            array (
-              0 => 'star',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{f77KtZsp}' => 
-            array (
-              0 => 'upgradeprogress',
-              1 => '<p>',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{mT8FGfZF}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{HyCgKylS}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{ZWz5dGfF}' => 
-            array (
-              0 => 'medal',
-              1 => '<p class="md_ctrl">',
-              2 => '</p>',
-              3 => '',
-            ),
-            '{Olz003ik}' => 
+            '{YWWwLT19}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -5361,196 +4457,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{H9QDJ49Y}' => 
+            '{PjQSQgJF}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{gDqCq911}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{idE6Mooq}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{dWJ7v3GV}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{wpKdQNIU}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{Im9zIbxG}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{nUkor4A4}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{BpP4HLEy}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{XNnhamFv}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{FUdEdYWW}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{wa99lwLA}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{FiM0j6Io}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{TFhm3jFf}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{iFx06CSg}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{WiAbE1K5}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{fjwe9q6N}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{YvVNT7RC}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{xk848tT8}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{u7uSJ78z}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{mJ5BHHyj}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{a42neNNS}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{MuUPJz3k}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{XappjT36}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{uLa343G1}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{US39O8LD}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{bdDDq5J2}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,0',
-            ),
-            '{yq1C6ZQ1}' => 
-            array (
-              0 => 'baseinfo',
-              1 => '',
-              2 => '',
-              3 => 'credits,1',
-            ),
-            '{Ve5uddnK}' => 
+            '{j4f4KFC9}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -5571,14 +4485,13 @@ j/n/Y',
     'uchomeurl' => '',
     'discuzurl' => 'http://45.33.44.158',
     'homeshow' => '0',
-    'csspathv' => 'data/cache/',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'fI9s84',
-      'password' => 'utQEQw',
-      'password2' => 'VOcO5O',
-      'email' => 'VPeHSc',
+      'username' => 'cD1sC4',
+      'password' => 'T3t3m7',
+      'password2' => 'wkyYN8',
+      'email' => 'X5G5J3',
     ),
     'output' => 
     array (
