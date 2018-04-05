@@ -1,7 +1,5 @@
 <?php
 $data = array (
   'exp' => 0,
-  'data' => 
-  array (
-  ),
+  'data' => '1	7',
 );

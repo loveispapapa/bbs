@@ -3,7 +3,7 @@ $data = array (
   'exp' => 0,
   'data' => 
   array (
-    'totalmembers' => 1,
-    'newsetuser' => 'admin',
+    'totalmembers' => 2,
+    'newsetuser' => '1211188834',
   ),
 );
