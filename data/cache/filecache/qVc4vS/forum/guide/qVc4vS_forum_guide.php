@@ -5,8 +5,11 @@ $data = array (
   array (
     'hot' => 
     array (
-      'cachetime' => 1522943344,
-      'data' => NULL,
+      'cachetime' => 1522991896,
+      'data' => 
+      array (
+        0 => '1',
+      ),
     ),
   ),
 );
