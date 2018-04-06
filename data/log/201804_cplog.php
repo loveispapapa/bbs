@@ -437,3 +437,4 @@
 <?PHP exit;?>	1523025538	admin	1	218.56.192.240	founder	GET={operation=perm; }; POST={};
 <?PHP exit;?>	1523025548	admin	1	218.56.192.240	founder	GET={operation=perm; do=member; newcpusername=hubris6965; }; POST={newcpusername=hubris6965; };
 <?PHP exit;?>	1523025550	admin	1	218.56.192.240	founder	GET={operation=perm; do=member; }; POST={};
+<?PHP exit;?>	1523025587	admin	1	218.56.192.240	logout	GET={}; POST={};
