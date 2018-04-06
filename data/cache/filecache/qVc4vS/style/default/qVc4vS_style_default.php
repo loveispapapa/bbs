@@ -97,9 +97,9 @@ $data = array (
     'bgcode' => 'background: #FFF url("static/image/common/background.png") repeat-x 0 0',
     'titlebgcode' => 'background: #E5EDF2 url("static/image/common/titlebg.png") repeat-x 0 0',
     'menubgcode' => 'background: #2B7ACD url("static/image/common/nv.png") no-repeat 0 0',
-    'boardlogo' => '<img src="static/image/common/logo.png" alt="Discuz! Board" border="0" />',
+    'boardlogo' => '<img src="static/image/common/logo.png" alt="资源岛" border="0" />',
     'bold' => 'bold',
     'defaultextstyle' => '',
-    'verhash' => 'AAz',
+    'verhash' => 'R5o',
   ),
 );

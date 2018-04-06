@@ -5,8 +5,8 @@ $data = array (
   array (
     'groupid' => '12',
     'radminid' => '0',
-    'grouptitle' => '中级会员',
-    'stars' => '3',
+    'grouptitle' => '高级会员',
+    'stars' => '5',
     'color' => '',
     'icon' => '',
     'allowvisit' => '1',
@@ -130,7 +130,7 @@ $data = array (
     'grouptype' => 'member',
     'grouppublic' => false,
     'groupcreditshigher' => '200',
-    'groupcreditslower' => '500',
+    'groupcreditslower' => '999999999',
     'allowthreadplugin' => 
     array (
     ),

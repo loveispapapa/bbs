@@ -41,8 +41,8 @@ $data = array (
     'autoidselect' => '0',
     'avatarmethod' => '0',
     'bannedmessages' => '1',
-    'bbclosed' => '',
-    'bbname' => 'Discuz! Board',
+    'bbclosed' => '0',
+    'bbname' => '资源岛',
     'bbrules' => '0',
     'bbrulesforce' => '0',
     'bbrulestxt' => '',
@@ -254,7 +254,7 @@ $data = array (
     ),
     'guide' => 'a:2:{s:5:"hotdt";i:604800;s:8:"digestdt";i:604800;}',
     'hideprivate' => '1',
-    'historyposts' => '0	7',
+    'historyposts' => '1	7',
     'hottopic' => '10',
     'icp' => '',
     'imagelib' => '0',
@@ -418,9 +418,9 @@ $data = array (
       'mobileforward' => 1,
       'mobileregister' => 1,
       'mobileseccode' => 0,
-      'mobilehotthread' => 1,
+      'mobilehotthread' => 0,
       'mobiledisplayorder3' => 1,
-      'mobilesimpletype' => 1,
+      'mobilesimpletype' => 0,
       'mobiletopicperpage' => 10,
       'mobilepostperpage' => 5,
       'mobilecachetime' => 0,
@@ -447,7 +447,7 @@ $data = array (
     'nocacheheaders' => '0',
     'oltimespan' => '10',
     'onlinehold' => 900,
-    'onlinerecord' => '12	1522943728',
+    'onlinerecord' => '15	1522944676',
     'pollforumid' => '0',
     'postbanperiods' => '',
     'postmodperiods' => '',
@@ -676,7 +676,7 @@ $data = array (
       array (
       ),
     ),
-    'sitename' => 'Comsenz Inc.',
+    'sitename' => '资源岛',
     'siteuniqueid' => 'DXSEFXPU6729bwnh',
     'siteurl' => 'http://www.comsenz.com/',
     'smcols' => '8',
@@ -4384,7 +4384,7 @@ j/n/Y',
         array (
           'available' => '1',
           'navname' => '收藏本站',
-          'code' => '<a href="http://zy888.org/"  onclick="addFavorite(this.href, \'Discuz! Board\');return false;">收藏本站</a>',
+          'code' => '<a href="http://zy888.org/"  onclick="addFavorite(this.href, \'资源岛\');return false;">收藏本站</a>',
           'type' => '0',
           'level' => '0',
           'id' => 'setfavorite',
@@ -4397,19 +4397,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{rh0N0kd2}
-{nif4JrjF}
-{V9ade79m}
-{u02040kN}
-{SUu7366o}
-{MgXWs8Wm}
+          'left' => '{K8hdU4QG}
+{bLCSD6wI}
+{QH7u1idM}
+{r3RR2RI9}
+{tUekKSfe}
+{iUczYH4q}
 <dl class="pil cl">
-	<dt>{FP9e8eGJ}</dt><dd>{fmCYQiYU}</dd>
+	<dt>{f5G1g3M4}</dt><dd>{snK088fb}</dd>
 </dl>
-{jb2GdWzd}
-<dl class="pil cl">{Y068ivZ8}</dl>',
+{kD4f926y}
+<dl class="pil cl">{WKQf5kMP}</dl>',
           'top' => '<dl class="cl">
-<dt>{F5dNNiNv}</dt><dd>{geEuLUeU}</dd>
+<dt>{FVo9ldCo}</dt><dd>{Pw2d3021}</dd>
 </dl>',
         ),
       ),
@@ -4419,70 +4419,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{rh0N0kd2}' => 
+            '{K8hdU4QG}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{nif4JrjF}' => 
+            '{bLCSD6wI}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{V9ade79m}' => 
+            '{QH7u1idM}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{u02040kN}' => 
+            '{r3RR2RI9}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{SUu7366o}' => 
+            '{tUekKSfe}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{MgXWs8Wm}' => 
+            '{iUczYH4q}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{FP9e8eGJ}' => 
+            '{f5G1g3M4}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{fmCYQiYU}' => 
+            '{snK088fb}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{jb2GdWzd}' => 
+            '{kD4f926y}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{Y068ivZ8}' => 
+            '{WKQf5kMP}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -4492,14 +4492,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{F5dNNiNv}' => 
+            '{FVo9ldCo}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{geEuLUeU}' => 
+            '{Pw2d3021}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -4523,10 +4523,10 @@ j/n/Y',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'lLjOeq',
-      'password' => 'VvZG8E',
-      'password2' => 'T9jC3W',
-      'email' => 'A7lYut',
+      'username' => 'yUN6G9',
+      'password' => 'RxZ3R2',
+      'password2' => 'F9R2LL',
+      'email' => 'te4ZZw',
     ),
     'output' => 
     array (

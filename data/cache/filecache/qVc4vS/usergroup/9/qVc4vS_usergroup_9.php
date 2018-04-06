@@ -129,7 +129,7 @@ $data = array (
     'allowimgcontent' => '0',
     'grouptype' => 'member',
     'grouppublic' => false,
-    'groupcreditshigher' => '-9999999',
+    'groupcreditshigher' => '-999999999',
     'groupcreditslower' => '0',
     'allowthreadplugin' => 
     array (
