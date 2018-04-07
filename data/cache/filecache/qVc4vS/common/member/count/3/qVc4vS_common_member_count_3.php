@@ -5,7 +5,7 @@ $data = array (
   array (
     'uid' => '3',
     'extcredits1' => '0',
-    'extcredits2' => 2,
+    'extcredits2' => 4,
     'extcredits3' => '0',
     'extcredits4' => '0',
     'extcredits5' => '0',
