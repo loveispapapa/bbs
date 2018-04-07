@@ -461,3 +461,12 @@
 <?PHP exit;?>	1523031918	hubris6965	0	218.56.192.240	members	GET={operation=reward; }; POST={};
 <?PHP exit;?>	1523031933	hubris6965	0	218.56.192.240	members	GET={operation=reward; username=hubris6965; }; POST={username=hubris6965; };
 <?PHP exit;?>	1523031972	hubris6965	0	218.56.192.240	usergroups	GET={}; POST={};
+<?PHP exit;?>	1523095400	hubris6965	0	218.56.192.240		GET={}; POST={};
+<?PHP exit;?>	1523095401	hubris6965	0	218.56.192.240	index	GET={}; POST={};
+<?PHP exit;?>	1523095404	hubris6965	0	218.56.192.240	setting	GET={operation=basic; }; POST={};
+<?PHP exit;?>	1523096192	hubris6965	0	218.56.192.240	index	GET={}; POST={};
+<?PHP exit;?>	1523096193	hubris6965	0	218.56.192.240	setting	GET={operation=basic; }; POST={};
+<?PHP exit;?>	1523096194	hubris6965	0	218.56.192.240	setting	GET={operation=cachethread; }; POST={};
+<?PHP exit;?>	1523096197	hubris6965	0	218.56.192.240	setting	GET={operation=serveropti; }; POST={};
+<?PHP exit;?>	1523096198	hubris6965	0	218.56.192.240	setting	GET={operation=memory; }; POST={};
+<?PHP exit;?>	1523096202	hubris6965	0	218.56.192.240	setting	GET={operation=memory; do=clear; }; POST={};

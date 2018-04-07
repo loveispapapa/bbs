@@ -16,7 +16,7 @@ $_config['db']['common']['slave_except_table'] = '';
 
 // --------------------------  CONFIG MEMORY  --------------------------- //
 $_config['memory']['prefix'] = 'qVc4vS_';
-$_config['memory']['redis']['server'] = '';
+$_config['memory']['redis']['server'] = '127.0.0.1';
 $_config['memory']['redis']['port'] = 6379;
 $_config['memory']['redis']['pconnect'] = 1;
 $_config['memory']['redis']['timeout'] = '0';
