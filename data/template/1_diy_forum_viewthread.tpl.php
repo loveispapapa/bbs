@@ -1,12 +1,12 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('viewthread');
 0
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_fastpost.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node_body.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seditor.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/seccheck_post.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/upload.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seccheck.htm', 1523047224, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_fastpost.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node_body.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seditor.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/seccheck_post.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/upload.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seccheck.htm', 1523187190, 'diy', './data/template/1_diy_forum_viewthread.tpl.php', './template/default', 'forum/viewthread')
 ;?><?php include template('common/header'); ?><script type="text/javascript">var fid = parseInt('<?php echo $_G['fid'];?>'), tid = parseInt('<?php echo $_G['tid'];?>');</script>
 <?php if($modmenu['thread'] || $modmenu['post']) { ?>
 <script src="<?php echo $_G['setting']['jspath'];?>forum_moderate.js?<?php echo VERHASH;?>" type="text/javascript"></script>

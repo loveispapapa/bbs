@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('space_notice');
 0
-|| checktplrefresh('./template/default/home/space_notice.htm', './template/default/home/space_prompt_nav.htm', 1523031252, 'diy', './data/template/1_diy_home_space_notice.tpl.php', './template/default', 'home/space_notice')
+|| checktplrefresh('./template/default/home/space_notice.htm', './template/default/home/space_prompt_nav.htm', 1523196371, 'diy', './data/template/1_diy_home_space_notice.tpl.php', './template/default', 'home/space_notice')
 ;?>
 <?php $_G['home_tpl_titles'] = array('提醒');?><?php include template('common/header'); ?><div id="pt" class="bm cl">
 <div class="z">
